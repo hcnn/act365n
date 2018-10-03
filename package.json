@@ -1,0 +1,13 @@
+{
+  "name": "act365n",
+  "version": "0.1.0",
+  "repo": "hcnn/act365n",
+  "description": "Date difference in years according to the Actual/365NL daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "Actual/365NL", "Actual/365 Non-Leap"],
+  "license": "MIT",
+  "src": ["act365n.c", "act365n.h"],
+  "dependencies": {
+    "hcnn/isaleapyear": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
